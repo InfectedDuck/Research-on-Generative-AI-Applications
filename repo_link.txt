@@ -1,2 +1,0 @@
-Paste your final repository URL here (example):
-https://github.com/InfectedDuck/Research-on-Generative-AI-Applications
