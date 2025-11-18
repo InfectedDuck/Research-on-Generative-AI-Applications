@@ -1,0 +1,370 @@
+{
+  "nodes": [
+    {
+      "id": "llm",
+      "type": "term",
+      "explicit": 4,
+      "implicit": 0
+    },
+    {
+      "id": "tokenization",
+      "type": "term",
+      "explicit": 0,
+      "implicit": 0
+    },
+    {
+      "id": "fine-tuning",
+      "type": "term",
+      "explicit": 0,
+      "implicit": 0
+    },
+    {
+      "id": "prompt engineering",
+      "type": "term",
+      "explicit": 0,
+      "implicit": 1
+    },
+    {
+      "id": "hallucination",
+      "type": "term",
+      "explicit": 1,
+      "implicit": 1
+    },
+    {
+      "id": "retrieval-augmented generation",
+      "type": "term",
+      "explicit": 0,
+      "implicit": 9
+    },
+    {
+      "id": "embedding",
+      "type": "term",
+      "explicit": 1,
+      "implicit": 0
+    },
+    {
+      "id": "few-shot",
+      "type": "term",
+      "explicit": 0,
+      "implicit": 0
+    },
+    {
+      "id": "multimodal",
+      "type": "term",
+      "explicit": 0,
+      "implicit": 3
+    },
+    {
+      "id": "diffusion models",
+      "type": "term",
+      "explicit": 0,
+      "implicit": 1
+    },
+    {
+      "id": "transfer learning",
+      "type": "term",
+      "explicit": 0,
+      "implicit": 1
+    },
+    {
+      "id": "grounding",
+      "type": "term",
+      "explicit": 1,
+      "implicit": 0
+    },
+    {
+      "id": "inference",
+      "type": "term",
+      "explicit": 1,
+      "implicit": 0
+    },
+    {
+      "id": "adversarial robustness",
+      "type": "term",
+      "explicit": 0,
+      "implicit": 4
+    },
+    {
+      "id": "data provenance",
+      "type": "term",
+      "explicit": 0,
+      "implicit": 4
+    },
+    {
+      "id": "sent_4",
+      "type": "sentence",
+      "text": "Weak points: hallucination risks (fabricating facts), trouble with ambiguous user intent, escalation handling, and the need for up-to-date knowledge."
+    },
+    {
+      "id": "sent_5",
+      "type": "sentence",
+      "text": "Implementations:\n- OpenAI ChatGPT \u2014 https://chat.openai.com \u2014 General-purpose LLM-based conversational assistant used for customer-facing and internal assistants."
+    },
+    {
+      "id": "sent_19",
+      "type": "sentence",
+      "text": "Implementations:\n- GitHub Copilot \u2014 https://github.com/features/copilot \u2014 Completes code and suggests functions using OpenAI Codex/LLM models."
+    },
+    {
+      "id": "sent_24",
+      "type": "sentence",
+      "text": "Technical challenges: high compute costs for training and inference, fine-grained control over outputs, licensing and content provenance, and generation of harmful or copyrighted content."
+    },
+    {
+      "id": "sent_31",
+      "type": "sentence",
+      "text": "Technical challenges: building reliable retrieval pipelines, latency, indexing and update strategies for evolving corpora, and ensuring factual grounding."
+    },
+    {
+      "id": "sent_32",
+      "type": "sentence",
+      "text": "Weak points: LLM hallucinations when documents are incomplete; difficulty tracing provenance for generated answers."
+    },
+    {
+      "id": "sent_34",
+      "type": "sentence",
+      "text": "- OpenAI embeddings + custom retrieval \u2014 https://openai.com \u2014 Embedding-based retrieval combined with LLMs for question answering over documents."
+    },
+    {
+      "id": "sent_35",
+      "type": "sentence",
+      "text": "- Pinecone + LLM combos \u2014 https://www.pinecone.io \u2014 Vector DBs used together with LLMs for scalable retrieval."
+    },
+    {
+      "id": "sent_17",
+      "type": "sentence",
+      "text": "Technical challenges: ensuring suggested code is secure, free of license conflicts, and correctly integrated; maintaining test coverage and avoiding subtle bugs."
+    },
+    {
+      "id": "sent_0",
+      "type": "sentence",
+      "text": "# Generative AI Applications \u2014 Research Report\n\n## Overview\nThis short research report summarizes selected generative AI applications, their business value, main technical challenges and weak points, and a short list of existing implementations for each use case (name, link, one-line description)."
+    },
+    {
+      "id": "sent_8",
+      "type": "sentence",
+      "text": "---\n\n## 2) Content Generation for Marketing (Text + Assets)\nGenerative AI can produce blog posts, social media copy, product descriptions, and image assets rapidly, enabling scalable content pipelines and personalization."
+    },
+    {
+      "id": "sent_15",
+      "type": "sentence",
+      "text": "---\n\n## 3) Code Generation & Developer Assistance\nGenerative tools can accelerate coding by autocompleting code, generating boilerplate, and offering suggestions, which boosts developer productivity."
+    },
+    {
+      "id": "sent_22",
+      "type": "sentence",
+      "text": "---\n\n## 4) Image, Video, and Design Generation\nGenerative image models produce illustrations, product mockups, and video assets on demand."
+    },
+    {
+      "id": "sent_29",
+      "type": "sentence",
+      "text": "---\n\n## 5) Document Understanding, Summarization & Search (RAG)\nCombining LLMs with retrieval (RAG) enables summarization, question-answering, and search over enterprise documents."
+    },
+    {
+      "id": "sent_33",
+      "type": "sentence",
+      "text": "Implementations:\n- Haystack / deepset \u2014 https://haystack.deepset.ai \u2014 Framework for building RAG applications with retrievers and LLMs."
+    },
+    {
+      "id": "sent_26",
+      "type": "sentence",
+      "text": "Implementations:\n- Midjourney \u2014 https://www.midjourney.com \u2014 Creative image generation with community-driven development and stylized outputs."
+    },
+    {
+      "id": "sent_27",
+      "type": "sentence",
+      "text": "- Stable Diffusion (Stability AI) \u2014 https://stability.ai \u2014 Open-source diffusion-based image synthesis with many forks and UIs."
+    },
+    {
+      "id": "sent_11",
+      "type": "sentence",
+      "text": "Weak points: repetitive or generic output without good prompts or conditioning; legal ambiguity on training data copyrights."
+    },
+    {
+      "id": "sent_36",
+      "type": "sentence",
+      "text": "---\n\n## 6) Synthetic Data & Data Augmentation\nGenerative models can synthesize realistic data for training ML systems (images, text logs, tabular), which helps in low-data domains and privacy-preserving data sharing."
+    },
+    {
+      "id": "sent_38",
+      "type": "sentence",
+      "text": "Technical challenges: ensuring synthetic data preserves the right statistical properties, avoiding leaking private data from the training set, and measuring utility."
+    },
+    {
+      "id": "sent_39",
+      "type": "sentence",
+      "text": "Weak points: synthetic artifacts that harm downstream models and difficulty quantifying distributional fidelity."
+    },
+    {
+      "id": "sent_30",
+      "type": "sentence",
+      "text": "Business value: faster knowledge discovery, automated reporting, and better decision support."
+    }
+  ],
+  "edges": [
+    {
+      "source": "hallucination",
+      "target": "sent_4",
+      "weight": 1.0
+    },
+    {
+      "source": "llm",
+      "target": "sent_5",
+      "weight": 1.0
+    },
+    {
+      "source": "llm",
+      "target": "sent_19",
+      "weight": 1.0
+    },
+    {
+      "source": "inference",
+      "target": "sent_24",
+      "weight": 1.0
+    },
+    {
+      "source": "grounding",
+      "target": "sent_31",
+      "weight": 1.0
+    },
+    {
+      "source": "llm",
+      "target": "sent_32",
+      "weight": 1.0
+    },
+    {
+      "source": "embedding",
+      "target": "sent_34",
+      "weight": 1.0
+    },
+    {
+      "source": "llm",
+      "target": "sent_35",
+      "weight": 1.0
+    },
+    {
+      "source": "prompt engineering",
+      "target": "sent_17",
+      "weight": 0.4202609658241272
+    },
+    {
+      "source": "hallucination",
+      "target": "sent_32",
+      "weight": 0.5717908143997192
+    },
+    {
+      "source": "retrieval-augmented generation",
+      "target": "sent_0",
+      "weight": 0.39720726013183594
+    },
+    {
+      "source": "retrieval-augmented generation",
+      "target": "sent_8",
+      "weight": 0.427626371383667
+    },
+    {
+      "source": "retrieval-augmented generation",
+      "target": "sent_15",
+      "weight": 0.412678599357605
+    },
+    {
+      "source": "retrieval-augmented generation",
+      "target": "sent_22",
+      "weight": 0.36063313484191895
+    },
+    {
+      "source": "retrieval-augmented generation",
+      "target": "sent_29",
+      "weight": 0.38354676961898804
+    },
+    {
+      "source": "retrieval-augmented generation",
+      "target": "sent_31",
+      "weight": 0.37007856369018555
+    },
+    {
+      "source": "retrieval-augmented generation",
+      "target": "sent_33",
+      "weight": 0.35947883129119873
+    },
+    {
+      "source": "retrieval-augmented generation",
+      "target": "sent_34",
+      "weight": 0.46199876070022583
+    },
+    {
+      "source": "retrieval-augmented generation",
+      "target": "sent_35",
+      "weight": 0.39084309339523315
+    },
+    {
+      "source": "multimodal",
+      "target": "sent_22",
+      "weight": 0.4053061306476593
+    },
+    {
+      "source": "multimodal",
+      "target": "sent_26",
+      "weight": 0.38594579696655273
+    },
+    {
+      "source": "multimodal",
+      "target": "sent_27",
+      "weight": 0.377466082572937
+    },
+    {
+      "source": "diffusion models",
+      "target": "sent_27",
+      "weight": 0.3870090842247009
+    },
+    {
+      "source": "transfer learning",
+      "target": "sent_11",
+      "weight": 0.3754149377346039
+    },
+    {
+      "source": "adversarial robustness",
+      "target": "sent_11",
+      "weight": 0.3770615756511688
+    },
+    {
+      "source": "adversarial robustness",
+      "target": "sent_36",
+      "weight": 0.36576762795448303
+    },
+    {
+      "source": "adversarial robustness",
+      "target": "sent_38",
+      "weight": 0.35397133231163025
+    },
+    {
+      "source": "adversarial robustness",
+      "target": "sent_39",
+      "weight": 0.4232277274131775
+    },
+    {
+      "source": "data provenance",
+      "target": "sent_24",
+      "weight": 0.47677844762802124
+    },
+    {
+      "source": "data provenance",
+      "target": "sent_30",
+      "weight": 0.4000951647758484
+    },
+    {
+      "source": "data provenance",
+      "target": "sent_31",
+      "weight": 0.4009099304676056
+    },
+    {
+      "source": "data provenance",
+      "target": "sent_38",
+      "weight": 0.37389013171195984
+    }
+  ],
+  "meta": {
+    "model": "all-MiniLM-L6-v2",
+    "sim_threshold": 0.35
+  }
+}

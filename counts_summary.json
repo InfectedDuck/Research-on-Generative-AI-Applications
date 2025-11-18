@@ -1,0 +1,37 @@
+{
+  "explicit_counts": {
+    "hallucination": 1,
+    "llm": 4,
+    "inference": 1,
+    "grounding": 1,
+    "embedding": 1
+  },
+  "implicit_counts": {
+    "prompt engineering": 1,
+    "hallucination": 1,
+    "retrieval-augmented generation": 9,
+    "multimodal": 3,
+    "diffusion models": 1,
+    "transfer learning": 1,
+    "adversarial robustness": 4,
+    "data provenance": 4
+  },
+  "total_sentences": 44,
+  "vocab_terms": [
+    "llm",
+    "tokenization",
+    "fine-tuning",
+    "prompt engineering",
+    "hallucination",
+    "retrieval-augmented generation",
+    "embedding",
+    "few-shot",
+    "multimodal",
+    "diffusion models",
+    "transfer learning",
+    "grounding",
+    "inference",
+    "adversarial robustness",
+    "data provenance"
+  ]
+}
