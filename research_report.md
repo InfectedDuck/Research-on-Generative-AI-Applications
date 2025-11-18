@@ -62,8 +62,3 @@ Implementations:
 - Gretel.ai — https://gretel.ai — Synthetic data generation tools with privacy controls.
 - Mostly AI — https://mostly.ai — Synthetic data platform focused on privacy-preserving synthetic datasets.
 - NVIDIA Deep Learning Data — https://developer.nvidia.com — Tools for synthetic image/video datasets (e.g., for autonomous driving).
-
----
-
-## References & Notes
-- This concise report is suitable for the course deliverable; if you want more depth in any single use case (e.g., a longer technical breakdown, architecture diagram, or references to academic papers), tell me which one and I’ll expand it to 1–2 pages per case.
